@@ -1,5 +1,5 @@
 ## Introduction
-In this notebook you will preprocess the data for the segmentation task for cardiac MRI images:<br />
+In this notebook we will preprocess the data for the segmentation task for cardiac MRI images:<br />
 The data is provided by the medical segmentation decathlon (http://medicaldecathlon.com/)<br /> (Data License: https://creativecommons.org/licenses/by-sa/4.0/)<br />
 
 For inspecting the data we use the sagittal view for this task as it provides the "nicest" images<br />
