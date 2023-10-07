@@ -5,7 +5,7 @@ The data is provided by the medical segmentation decathlon (http://medicaldecath
 For inspecting the data we use the sagittal view for this task as it provides the "nicest" images<br />
 We import HTML from IPython.display to create a video of the volume. <br />
 Example: <br/>
-![alt text](images/my_animation1.mp4?raw=true)
+![alt text](images/my_animation_1.gif?raw=true)
 
 ## Preprocessing
 We perform the following preprocessing steps:
@@ -42,9 +42,9 @@ This allows for a high quality of the produced mask and simplifies the training 
 
 ## Training
 We will implement full segmentaion model with pytorch-lightning.
-Computed Dice-score: 0.93
+Computed Dice-score: 0.90
 
 ## Visualization
 We will load a test subject from the dataset and estimate the position of the left atrium.
 After preprocessing the scan and croping 32 px from top, bottom, back and front, the results will be like this: <br/>
-![alt text](images/my_animation1.mp4?raw=true)
+![alt text](images/my_animation_1.gif?raw=true)
